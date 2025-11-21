@@ -1,0 +1,14 @@
+{
+  "name": "node-komodophone",
+  "version": "1.0.0",
+  "description": "API para generar números y leer códigos SMS.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.4.0",
+    "events": "^3.3.0"
+  }
+}
