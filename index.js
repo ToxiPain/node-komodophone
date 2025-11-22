@@ -74,7 +74,7 @@ export default class KomodoPhone extends EventEmitter {
       this.emit("log", "clicked-whatsapp");
 
       // seleccionar país: si es número -> lista local, si es string -> buscar texto exacto
-      const paises = ["Vietnam", "Kenya", "Indonesia", "Southafrica"];
+      const paises = ["Indonesia", "Kenya", "Vietnam", "Southafrica", "Canada", "Philippines", "Colombia", "Chile", "Laos", "Nigeria", "Egypt", "Ghana", "Cameroon"];
       let chosen = null;
       if (typeof country === "number") {
         chosen = paises[country] ?? null;
